@@ -29,13 +29,39 @@ The Home feature provides an alternative payment method for users.
 I highly recommend to get used to using Linux if you still on the blue screen....huuh!!
 
 ## Configuration
-git clone 
-cd mpesa_stk_integration
-python3 -m venv venv
-source venv/bin/activate    for linux and mac users!!!!
-pip install django
-pip istall requests.
-N/B:ensure you have python on your system.
+#### Prerequisites  
+- Ensure you have **Python** installed on your system.  
+#### Setup  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/mpesa-integration.git
+   cd mpesa-integration
+   ```  
+2. Create and activate a virtual environment:  
+   - For Linux and macOS:  
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```  
+   - For Windows:  
+     ```bash
+     python -m venv venv
+     venv\Scripts\activate
+     ```  
+3. Install Django and dependencies:  
+   ```bash
+   pip install django  
+   pip install requests  
+   ```  
+4. Set up environment variables (API keys, shortcodes, etc.).  
+5. Run database migrations:  
+   ```bash
+   python manage.py migrate
+   ```  
+6. Start the server:  
+   ```bash
+   python manage.py runserver
+   ```  
 
 ## Usage
 python3 manage.py migrate
