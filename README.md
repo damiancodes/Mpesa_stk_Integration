@@ -62,13 +62,23 @@ I highly recommend to get used to using Linux if you still on the blue screen...
    ```bash
    python manage.py runserver
    ```  
+Here's the **Usage** section formatted with numbering:  
 
-## Usage
-python3 manage.py migrate
-python3 manage.py runserver
-Navigate to http://127.0.0.1:8000/.
-Enter payment details and initiate an M-Pesa STK push request.
-Confirm the transaction on your mobile phone
+---
+
+## Usage  
+1. Apply database migrations:  
+   ```bash
+   python3 manage.py migrate
+   ```  
+2. Start the development server:  
+   ```bash
+   python3 manage.py runserver
+   ```  
+3. Open your browser and navigate to:  
+   `http://127.0.0.1:8000/`  
+4. Enter payment details and initiate an **M-Pesa STK push request**.  
+5. Confirm the transaction on your mobile phone.  
 
 
 
