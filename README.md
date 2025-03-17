@@ -8,7 +8,7 @@ This project implements Mpesa integration with two main components:
 
 The STK Push feature allows users to initiate Mpesa payments directly from their phones.
 
-![STK Push Home Screen](static/images/homestk.png)
+![STK Push Home Screen](https://github.com/damiancodes/Mpesa_stk_Integration/blob/master/stkpushapp/static/images/payhere.png)
 
 ## Successful Transaction
 
