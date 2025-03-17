@@ -14,13 +14,13 @@ The STK Push feature allows users to initiate Mpesa payments directly from their
 
 When a transaction is completed successfully, users will see a confirmation screen.
 
-![Successful Transaction](static/images/success.png)
+![Successful Transaction](https://github.com/damiancodes/Mpesa_stk_Integration/blob/master/stkpushapp/static/images/success.png)
 
-## Payhere
+## Home
 
-The Payhere feature provides an alternative payment method for users.
+The Home feature provides an alternative payment method for users.
 
-![Payhere Interface](static/images/payhere.png)
+![Payhere Interface](https://github.com/damiancodes/Mpesa_stk_Integration/blob/master/stkpushapp/static/images/homestk.png))
 
 ## Getting Started
 
