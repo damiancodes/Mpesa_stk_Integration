@@ -1,0 +1,42 @@
+# Mpesa Integration Project
+
+This project implements Mpesa integration with two main components:
+- STK Push
+- Payhere
+
+## STK Push
+
+The STK Push feature allows users to initiate Mpesa payments directly from their phones.
+
+![STK Push Home Screen](static/images/homestk.png)
+
+## Successful Transaction
+
+When a transaction is completed successfully, users will see a confirmation screen.
+
+![Successful Transaction](static/images/success.png)
+
+## Payhere
+
+The Payhere feature provides an alternative payment method for users.
+
+![Payhere Interface](static/images/payhere.png)
+
+## Getting Started
+
+I highly recommend to get used to using Linux if you still on the blue screen....huuh!!
+
+## Usage
+
+Update the consumer key from your daraja developers api portal.
+
+## Configuration
+
+create venv
+pip install django
+pip istall requests.
+ensure you have python on your system.
+
+## License
+
+MIT Licence.
