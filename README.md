@@ -1,5 +1,7 @@
 # Mpesa Integration Project
 
+![STK Push Home Screen](https://github.com/damiancodes/Mpesa_stk_Integration/blob/master/stkpushapp/static/images/payhere.png)
+
 This project implements Mpesa integration with two main components:
 - STK Push
 - Payhere
@@ -26,16 +28,23 @@ The Home feature provides an alternative payment method for users.
 
 I highly recommend to get used to using Linux if you still on the blue screen....huuh!!
 
-## Usage
-
-Update the consumer key from your daraja developers api portal.
-
 ## Configuration
-
-create venv
+git clone 
+cd mpesa_stk_integration
+python3 -m venv venv
+source venv/bin/activate    for linux and mac users!!!!
 pip install django
 pip istall requests.
-ensure you have python on your system.
+N/B:ensure you have python on your system.
+
+## Usage
+python3 manage.py migrate
+python3 manage.py runserver
+Navigate to http://127.0.0.1:8000/.
+Enter payment details and initiate an M-Pesa STK push request.
+Confirm the transaction on your mobile phone
+
+
 
 ## License
 
