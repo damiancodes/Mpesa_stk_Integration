@@ -78,7 +78,6 @@ A modern, full-stack healthcare platform built with Django REST Framework (DRF),
 
 ---
 
-<<<<<<< HEAD
 ## Backend/API Endpoints Example
 ### Apiservices
 ![apisevices](https://github.com/damiancodes/MtreatAssignment/blob/master/images/apiservices.png)
